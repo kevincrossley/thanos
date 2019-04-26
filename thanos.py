@@ -55,7 +55,8 @@ if maxsnaps > s2one:
 
 	print('\n', ' ************* GENERAL SOLUTION ************* ')
 	print('Snaps until just 1 person left:', s2one)
-	print('Chance of last person surviving the rest of the snaps (%):', schance*100)
+	print('Chance of last person surviving the rest of the snaps (%):', round(schance*100,10))
+	print('Percent chance that nobody survives (%):', round(100*(1-schance), 10))
 
 else:
 	# percentage of population remaining
@@ -64,7 +65,7 @@ else:
 
 	print('\n', ' ************* GENERAL SOLUTION ************* ')
 	print('Percentage of original population remaining (%):', round(schance*100, 10))
-	print('Percent chance that nobody survives (%):', round(100*(1-schance), 10))
+	
 
 
 
