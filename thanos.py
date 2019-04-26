@@ -8,7 +8,7 @@ import random
 
 
 pop = 7500000000 # world population
-maxsnaps = 35 # max number of snaps 
+maxsnaps = 63 # max number of snaps 
 printOn=True # whether you want the specific simulation to print out or not
 
 pop_original = pop
@@ -64,6 +64,7 @@ else:
 
 	print('\n', ' ************* GENERAL SOLUTION ************* ')
 	print('Percentage of original population remaining (%):', round(schance*100, 10))
+	print('Percent chance that nobody survives (%):', round(1-schance,10))
 
 
 
