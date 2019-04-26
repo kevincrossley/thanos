@@ -1,8 +1,10 @@
 import numpy as np
 import random
 
-### Written by Kevin Crossley
-
+##     
+## MIT License
+## Copyright (c) 2019 Kevin Crossley
+##
 
 
 pop = 7500000000 # world population
