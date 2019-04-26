@@ -1,5 +1,5 @@
 # thanos
-This script was made in response to fivethirteight's weekly riddler:
+This script was made in response to fivethirtyeight's weekly riddler:
 
 
 > Thanos, the all-powerful supervillain, can snap his fingers and destroy half of all the beings in the universe.
