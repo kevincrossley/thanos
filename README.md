@@ -1,4 +1,4 @@
-# thanos
+# Thanos
 This script was made in response to fivethirtyeight's weekly riddler:
 
 
@@ -7,5 +7,7 @@ This script was made in response to fivethirtyeight's weekly riddler:
 > But what if there were 63 Thanoses, each snapping his fingers one after the other? Out of 7.5 billion people on Earth, how many can we expect would survive?
 >
 > If there were N Thanoses, what would the survival fraction be?
+>
+> https://fivethirtyeight.com/features/how-many-earthlings-would-survive-63-thanos-snaps/
 
 My script assumes that for each snap, Thanos will keep killing until at least 50% of the population is gone. Then if there is only 1 person left, each snap will have a 50% chance of killing that final person
