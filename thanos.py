@@ -64,7 +64,7 @@ else:
 
 	print('\n', ' ************* GENERAL SOLUTION ************* ')
 	print('Percentage of original population remaining (%):', round(schance*100, 10))
-	print('Percent chance that nobody survives (%):', round(1-schance,10))
+	print('Percent chance that nobody survives (%):', round(100*(1-schance), 10))
 
 
 
